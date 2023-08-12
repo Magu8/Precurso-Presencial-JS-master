@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0
+}
+ #header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vh 10vh 0vh 10vh;
+    background-color: skyblue;
+    height: 120px;
+
+ }
+ #titulo{
+    color:white;
+ }
+ 
+ #list{
+    list-style-type: none;
+    display:flex;
+    align-items: center;
+ }
+ li{
+    color:white;
+    margin: 0 2vh 0 1vh;
+    padding: 0 0vh 0 2vh;
+    
+ }
+ #falsoheader{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align: right;
+    background-color: skyblue;
+    
+    
+ }
+ #sub{
+    color:white
+ }
